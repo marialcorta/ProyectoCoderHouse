@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Philosopher', sans-serif; 
+*/
+
+* {margin: 0;
+    padding: 0;}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    color: #816F63;
+}
+
+/* Logo */
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 2.5rem;
+}
+
+/*Header*/
+header {
+    background-color: #F5E3E0;
+    padding: 10px
+}
+
+li {
+    list-style: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #816F63;
+    font-size: 1.25rem;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #F5E3E0;
+    padding: 10px;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+.SM {
+    font-size: 1.25rem;
+}
+
+
+/*Main*/
+main {
+    background-color: #F7F6F2;
+    padding: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
+p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.r-section {
+    font-size: 1.75rem;
+    padding-left: 40px;
+}
+.r-section ul li {
+    list-style: disc;
+}
+.r-section ul {
+    padding: 20px;
+}
+.r-section ol li {
+    list-style: decimal;
+}
+.r-section ol {
+    padding: 20px;
+}
+
+.div-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Fotos*/
+.logo {
+    width: 6.5625rem;
+    height: 6.6875rem;
+}
+
+#maps {
+    width: 38.75rem;
+    height: 25.8125rem;
+}
+
+#pasteleria1 {
+    width: 24.5rem;
+    height: 34.125rem;
+    }
+
+.products {
+    width: 14.58331rem;
+    height: 21.875rem;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#pasteleria2 {
+    width: 24.4375rem;
+    height: 34.125rem;
+}    
+
+#receta {
+    width: 22.75rem;
+    height: 30.323rem;
+}
+    
+.LSM {
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.bolsa {
+    width: 1.5rem;
+    height: 1.5rem;
+}    
