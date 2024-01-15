@@ -43,14 +43,25 @@ li {
 footer {
     background-color: #F5E3E0;
     padding: 10px;
+    display: flex;
+    align-content: space-around;
 }
 
 h6 {
     font-size: 1rem;
+    padding-top: 15px;
 }
 
 .SM {
     font-size: 1.25rem;
+    padding-top: 5px;
+}
+
+.logofooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
 }
 
 
