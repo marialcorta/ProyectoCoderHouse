@@ -24,6 +24,18 @@ h2 {
     padding-right: 5px;
 }
 
+.logo {
+    width: 6.5625rem;
+    height: 6.6875rem;
+}
+
+.logoprincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
 /*Header*/
 header {
     background-color: #F5E3E0;
@@ -48,7 +60,6 @@ header {
     touch-action: none;
     box-shadow: none;
 }
-
 
 /*Footer*/
 footer {
@@ -75,6 +86,7 @@ h6 {
     font-weight: bolder;
     cursor: pointer;
 }
+
 ul {
     margin: 0;
     padding-left: 10px;
@@ -83,14 +95,6 @@ ul {
 li {
     list-style: none;
 }
-
-.logoprincipal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-}
-
 
 /*Main*/
 main {
@@ -108,7 +112,6 @@ h1 {
     font-weight: 400;
     text-align: center;
     padding: 20px;
-
 }
 
 p {
@@ -158,16 +161,12 @@ img {
     display: flex;
     align-self: center;
 }
+
 iframe {
     width: 620px;
     height: 413px;
     display: flex;
     align-self: center;
-}
-
-.logo {
-    width: 6.5625rem;
-    height: 6.6875rem;
 }
 
 #maps {
