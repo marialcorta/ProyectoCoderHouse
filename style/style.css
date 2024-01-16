@@ -9,7 +9,7 @@ font-family: 'Philosopher', sans-serif;
 
 * {margin: 0;
     padding: 0;}
-
+  
 body {
     font-family: 'Philosopher', sans-serif;
     color: #816F63;
@@ -71,7 +71,10 @@ h6 {
     display: flex;
     align-content: center;
 }
-
+.SM:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
 ul {
     margin: 0;
     padding-left: 10px;
