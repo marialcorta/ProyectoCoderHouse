@@ -143,6 +143,12 @@ h3 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    transition: background-color 0.5s;
+}
+.div-p:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F5E3E0;
 }
 
 /*Fotos*/
