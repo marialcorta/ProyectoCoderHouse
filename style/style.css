@@ -44,7 +44,7 @@ footer {
     background-color: #F5E3E0;
     padding: 10px;
     display: flex;
-    align-content: space-around;
+    justify-content: space-between;
 }
 
 h6 {
