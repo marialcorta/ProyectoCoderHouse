@@ -16,7 +16,7 @@ body {
 }
 
 /* Logo */
-h2 {
+.h2 {
     font-family: 'Dancing Script', cursive;
     color: black;
     font-size: 2.5rem;
@@ -43,6 +43,9 @@ header {
     width: 100%;
 }
 
+.nav-link {
+    font-size: 1rem;
+}
 .navbar-collapse {
     flex-grow: unset;
     align-items: flex-end;
@@ -111,13 +114,20 @@ h1 {
     font-size: 3rem;
     font-weight: 400;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 p {
     font-size: 2rem;
     text-align: justify;
     padding: 15px;
+}
+
+.list {
+    font-size: 2.25rem;
+}
+.li {
+    font-size: 2rem;
 }
 
 h3 {
@@ -142,6 +152,10 @@ h3 {
     padding: 20px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}
 .div-p {
     display: flex;
     flex-direction: column;
@@ -157,6 +171,7 @@ h3 {
 /*Fotos*/
 img {
     width: 100%;
+    width: max-content;
     height: 100%;
     display: flex;
     align-self: center;
@@ -169,15 +184,15 @@ iframe {
     align-self: center;
 }
 
-#maps {
+.maps {
     width: 38.75rem;
     height: 25.8125rem;
 }
 
-#pasteleria1 {
-    width: 24.5rem;
-    height: 34.125rem;
-    }
+.pasteleria1 {
+    width: 35.188rem;
+    height: 47.313rem;
+}
 
 .products {
     width: 14.58331rem;
@@ -186,12 +201,12 @@ iframe {
     padding-bottom: 15px;
 }
 
-#pasteleria2 {
-    width: 24.4375rem;
+.pasteleria2 {
+    width: 24.5rem;
     height: 34.125rem;
 }    
 
-#receta {
+.receta {
     width: 22.75rem;
     height: 30.323rem;
 }
@@ -207,3 +222,103 @@ iframe {
     height: 1.5rem;
     align-items: center;
 }
+
+@media (max-width: 991px) {
+    .h1 {
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+    .p {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .list {
+        font-size: 1.75rem;
+    }
+    .li {
+        font-size: 1.5rem;
+    }
+
+    .h2 {
+        font-size: 2rem;
+        color: black;
+    }
+}
+@media (max-width: 767px){
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .h2 {
+        font-size: 1.65rem;
+        color: black;
+    }
+    .LSM {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .SM {
+        font-size: 1rem;
+    }
+    .h6 {
+        font-size: 0.75rem;
+    }
+    .h3 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 575px) {
+    .nav-link {
+        font-size: 0.75rem;
+    }
+    .logo {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .h2 {
+        font-size: 1.5rem;
+        color: black;
+    }
+    .LSM {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .SM {
+        font-size: 0.75rem;
+    }
+    .h6 {
+        font-size: 0.5rem;
+    }
+    .h1 {
+        font-size: 1.5rem;
+    }
+    .p {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .list {
+        font-size: 1.25rem;
+    }
+    .li {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 465px) {
+    .logo {
+        width: 3rem;
+        height: 3rem;
+    }
+    .h2 {
+        font-size: 1rem;
+        color: black;
+    }
+    .LSM {
+        width: 1rem;
+        height: 1rem;
+    }
+    .SM {
+        font-size: 0.60rem;
+    } 
+}
+   
+    
