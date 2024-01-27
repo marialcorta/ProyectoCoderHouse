@@ -131,12 +131,17 @@ p {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.25rem;
     text-align: center;
 }
 
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
 .r-section {
-    font-size: 1.75rem;
     padding-left: 40px;
 }
 .r-section ul li {
