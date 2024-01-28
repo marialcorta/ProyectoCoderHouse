@@ -195,6 +195,29 @@ article {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.form {
+    display: grid;
+    width: fit-content;
+    background-color: #F5E3E0;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.input {
+    margin: 10px;
+    padding: 5px;
+    width: 600px;
+    background-color: #F7F6F2;
+    font-size: 1.25rem;
+}
+#button-f {
+    display: flex;
+    margin: 10px;
+    justify-self: center;
+}
 /*Fotos*/
 img {
     width: 100%;
@@ -209,6 +232,7 @@ iframe {
     height: 413px;
     display: flex;
     align-self: center;
+    padding-bottom: 15px;
 }
 
 .maps {
@@ -299,6 +323,13 @@ iframe {
     .h3 {
         font-size: 1.5rem;
     }
+    .button {
+        font-size: 1rem;
+    }
+    .input {
+        width: 500px;
+        font-size: 1rem;
+    }
 }
 @media (max-width: 575px) {
     .nav-link {
@@ -338,6 +369,13 @@ iframe {
     .li {
         font-size: 1rem;
     }
+    .form {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .input {
+        width: 350px;
+    }
 }
 @media (max-width: 465px) {
     .logo {
@@ -355,6 +393,9 @@ iframe {
     .SM {
         font-size: 0.60rem;
     } 
+    .input {
+        width: 300px;
+    }
 }
    
     
