@@ -133,6 +133,7 @@ p {
 .h3 {
     font-size: 2.50rem;
     text-align: center;
+    text-decoration: underline;
 }
 
 article {
@@ -166,14 +167,34 @@ article {
     display: flex;
     flex-direction: column;
     align-content: center;
-    transition: background-color 0.5s;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;  
+    height: 500px;
 }
-.div-p:hover {
-    cursor: pointer;
-    border-radius: 10px;
-    background-color: #F5E3E0;
+.col-xxl-4 {
+    display: flex;
+    justify-content: center;
 }
-
+.button {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.button:hover {
+    background-color: #816F63;
+}
+.container { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /*Fotos*/
 img {
     width: 100%;
