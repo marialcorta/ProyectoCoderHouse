@@ -1,0 +1,25 @@
+header {
+    background-color: #F5E3E0;
+    padding: 15px;
+    width: 100%;
+    .logoopciones {
+        width: 24px;
+        height: 24px;
+    }
+    .navbar-collapse {
+        flex-grow: unset;
+        align-items: flex-end;
+    }
+    .navbar-toggler {
+        box-shadow: none;
+        border: none;
+        background-color: #F5E3E0; 
+        &:hover {
+            touch-action: none;
+            box-shadow: none;
+        }
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
