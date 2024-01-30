@@ -1,0 +1,23 @@
+.form {
+    display: grid;
+    width: fit-content;
+    background-color: map-get($map: $colors, $key: pink);
+    border: $border;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.input {
+    margin: 10px;
+    padding: 5px;
+    width: 600px;
+    background-color: map-get($map: $colors, $key: lightpink);
+    font-size: 1.25rem;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

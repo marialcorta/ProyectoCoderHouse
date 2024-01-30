@@ -1,0 +1,47 @@
+img {
+    @include medidas (100%, 100%);
+    width: max-content;
+    display: flex;
+    align-self: center;
+}
+
+iframe {
+    @include medidas (620px, 413px);
+    display: flex;
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.maps {
+    @include medidas (38.75rem, 25.8125rem);
+}
+
+.pasteleria1 {
+    @include medidas (35.188rem, 47.313rem);
+}
+
+.products {
+    @include medidas (14.58331rem, 21.875rem);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pasteleria2 {
+    @include medidas (24.5rem, 34.125rem);
+}
+
+.receta {
+    @include medidas (100%, auto);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.LSM {
+    @include medidas (2.125rem, 2.125rem);
+    padding-right: 5px;
+}
+
+.bolsa {
+    @include medidas (1.5rem, 1.5rem);
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.button {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: map-get($map: $colors, $key: black);
+    display: inline-block;
+    border: $border;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+    &:hover {
+        background-color: map-get($map: $colors, $key: brown);
+    }
+}
+
+#button-f {
+    display: flex;
+    margin: 10px;
+    justify-self: center;
+}

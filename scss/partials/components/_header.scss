@@ -3,8 +3,7 @@ header {
     padding: 15px;
     width: 100%;
     .logoopciones {
-        width: 24px;
-        height: 24px;
+        @include medidas (24px, 24px);
     }
     .navbar-collapse {
         flex-grow: unset;

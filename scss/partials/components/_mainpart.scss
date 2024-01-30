@@ -1,0 +1,64 @@
+main {
+    background-color: map-get($map: $colors, $key: lightpink);
+    padding: 38px;
+    width: 100%;
+    @include flex (row, space-between, center)
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 15px;
+}
+
+.list {
+    font-size: 2.25rem;
+}
+.li {
+    font-size: 2rem;
+}
+
+.h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+article {
+    @include flex (row, space-evenly, auto);
+    padding: 15px;
+}
+.r-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    ul {
+        padding: 10px;
+        li {
+            list-style: disc;
+        }
+    }
+    ol {
+        padding: 10px;
+        li {
+            list-style: decimal;
+        }
+    }
+
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
