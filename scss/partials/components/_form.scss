@@ -1,5 +1,7 @@
 .form {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
     width: fit-content;
     background-color: map-get($map: $colors, $key: pink);
     border: $border;

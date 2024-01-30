@@ -1,0 +1,118 @@
+@media (max-width: 991px) {
+    .h1 {
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+    .p {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .h3 {
+        font-size: 1.75rem;
+    }
+    .list {
+        font-size: 1.75rem;
+    }
+    .li {
+        font-size: 1.5rem;
+    }
+
+    .h2 {
+        font-size: 2rem;
+        color: map-get($map: $colors, $key: black)
+    }
+}
+@media (max-width: 767px){
+    .logo {
+        @include medidas(5rem, 5rem);
+    }
+    .h2 {
+        font-size: 1.65rem;
+        color: map-get($map: $colors, $key: black)
+    }
+    .LSM {
+        @include medidas(1.5rem, 1.5rem);
+    }
+    .SM {
+        font-size: 1rem;
+    }
+    .h6 {
+        font-size: 0.75rem;
+    }
+    .h3 {
+        font-size: 1.5rem;
+    }
+    .button {
+        font-size: 1rem;
+    }
+    .form {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .input {
+        width: 500px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 575px) {
+    .nav-link {
+        font-size: 0.75rem;
+    }
+    .logo {
+        @include medidas(3.5rem, 3.5rem);
+    }
+    .h2 {
+        font-size: 1.5rem;
+        color: map-get($map: $colors, $key: black)
+    }
+    .LSM {
+        @include medidas(1.25rem, 1.25rem);
+    }
+    .SM {
+        font-size: 0.75rem;
+    }
+    .h6 {
+        font-size: 0.5rem;
+    }
+    .h1 {
+        font-size: 1.5rem;
+    }
+    .p {
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .h3 {
+        font-size: 1.25rem;
+    }
+    .list {
+        font-size: 1.25rem;
+    }
+    .li {
+        font-size: 1rem;
+    }
+    .form {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .input {
+        width: 350px;
+    }
+}
+@media (max-width: 465px) {
+    .logo {
+        @include medidas(3rem, 3rem);
+    }
+    .h2 {
+        font-size: 1rem;
+        color: map-get($map: $colors, $key: black)    }
+    .LSM {
+        @include medidas(1rem, 1rem);
+    }
+    .SM {
+        font-size: 0.60rem;
+    } 
+    .input {
+        width: 300px;
+    }
+}
