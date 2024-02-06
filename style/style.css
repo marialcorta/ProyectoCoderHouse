@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -40,8 +40,8 @@ header .nav-link {
   font-family: "Dancing Script", cursive;
   color: #000000;
   font-size: 2.5rem;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -186,8 +186,8 @@ article {
 }
 
 .r-section {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .r-section ul {
   padding: 10px;
@@ -213,7 +213,7 @@ article {
 }
 
 .h3 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-align: center;
   text-decoration: underline;
 }
@@ -225,9 +225,9 @@ article {
   align-items: center;
   padding: 10px;
   margin: 10px;
-  border: solid 1px black;
   width: 400px;
   height: 500px;
+  border: solid 1px black;
 }
 
 .col-xxl-4 {
@@ -263,13 +263,13 @@ article {
   background-color: #F5E3E0;
   border: solid 1px black;
   border-radius: 10px;
-  margin: 15px;
   padding: 10px;
+  margin: 15px;
 }
 
 .input {
-  margin: 10px;
   padding: 5px;
+  margin: 10px;
   width: 600px;
   background-color: #F7F6F2;
   font-size: 1.25rem;

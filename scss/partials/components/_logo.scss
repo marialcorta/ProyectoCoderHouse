@@ -1,9 +1,8 @@
 .h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: $logofont;
     color: map-get($map: $colors, $key: black);
     font-size: 2.5rem;
-    padding-left: 5px;
-    padding-right: 5px;
+    @include pad-lr (5px, 5px);
 }
 
 .logo {

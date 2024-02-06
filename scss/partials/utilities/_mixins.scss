@@ -11,3 +11,24 @@
     width: $ancho;
     height: $alto;
 }
+
+//padding & margin
+@mixin pad-mar ($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin mar-lr ($marl, $marr) {
+    margin-left: $marl;
+    margin-right: $marr;
+}
+
+@mixin pad-tb ($padt, $padb) {
+    padding-top: $padt;
+    padding-bottom: $padb;
+}
+
+@mixin pad-lr ($padl, $padr) {
+    padding-top: $padl;
+    padding-bottom: $padr;
+}

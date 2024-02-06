@@ -2,13 +2,13 @@ img {
     @include medidas (100%, 100%);
     width: max-content;
     display: flex;
-    align-self: center;
+    align-self: $position;
 }
 
 iframe {
     @include medidas (620px, 413px);
     display: flex;
-    align-self: center;
+    align-self: $position;
     padding-bottom: 15px;
 }
 
@@ -22,8 +22,7 @@ iframe {
 
 .products {
     @include medidas (14.58331rem, 21.875rem);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    @include pad-tb (15px, 15px);
 }
 
 .pasteleria2 {
@@ -32,8 +31,7 @@ iframe {
 
 .receta {
     @include medidas (100%, auto);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    @include pad-tb (25px, 25px);
 }
 
 .LSM {
@@ -43,5 +41,5 @@ iframe {
 
 .bolsa {
     @include medidas (1.5rem, 1.5rem);
-    align-items: center;
+    align-items: $position;
 }

@@ -1,17 +1,16 @@
 .h3 {
-    font-size: 2.2rem;
-    text-align: center;
+    font-size: 2.5rem;
+    text-align: $position;
     text-decoration: underline;
 }
 
 .div-p {
     @include flex (column, auto, center);
-    padding: 10px;
-    margin: 10px;
+    @include pad-mar (10px, 10px);
+    @include medidas(400px, 500px);
     border: $border;
-    @include medidas(400px, 500px)
 }
 .col-xxl-4 {
     display: flex;
-    justify-content: center;
+    justify-content: $position;
 }

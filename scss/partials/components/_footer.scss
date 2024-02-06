@@ -6,7 +6,7 @@ footer {
 }
 
 h6 {
-    font-size: 1rem;
+    font-size: 1rem; 
     padding-top: 10px;
     padding-left: 10px;
     margin: 0;
@@ -16,7 +16,7 @@ h6 {
     font-size: 1.25rem;
     padding-top: 10px;
     display: flex;
-    align-content: center;
+    align-content: $position;
     &:hover {
         font-weight: bolder;
         cursor: pointer;
@@ -27,6 +27,6 @@ ul {
     margin: 0;
     padding-left: 10px;
     li {
-        list-style: none;
+        list-style: map-get($map: $list-style, $key: none);
     }
 }

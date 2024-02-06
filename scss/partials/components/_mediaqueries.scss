@@ -47,8 +47,7 @@
         font-size: 1rem;
     }
     .form {
-        margin-left: 0%;
-        margin-right: 0%;
+        @include  mar-lr (0%, 0%);
     }
     .input {
         width: 500px;
@@ -92,8 +91,7 @@
         font-size: 1rem;
     }
     .form {
-        margin-left: 0%;
-        margin-right: 0%;
+        @include  mar-lr (0%, 0%);
     }
     .input {
         width: 350px;

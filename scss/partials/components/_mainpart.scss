@@ -8,7 +8,7 @@ main {
 h1 {
     font-size: 3rem;
     font-weight: 400;
-    text-align: center;
+    text-align: $position;
     padding: 10px;
 }
 
@@ -30,26 +30,24 @@ article {
     padding: 15px;
 }
 .r-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    @include pad-lr (20px, 20px);
     ul {
         padding: 10px;
         li {
-            list-style: disc;
+            list-style: map-get($map: $list-style, $key: disc);
         }
     }
     ol {
         padding: 10px;
         li {
-            list-style: decimal;
+            list-style: map-get($map: $list-style, $key: decimal);
         }
     }
 
 }
 
 .container {
-    margin-left: 10px;
-    margin-right: 10px;
+    @include mar-lr (10px, 10px);
 }
 .row {
     display: flex;
