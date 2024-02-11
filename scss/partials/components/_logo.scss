@@ -10,5 +10,6 @@
 }
 
 .logoprincipal {
-    @include flex (row, right, center)
+    @include flex (row, right, center);
+    text-decoration: none;
 }

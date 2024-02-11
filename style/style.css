@@ -54,6 +54,7 @@ header .nav-link {
   flex-direction: row;
   justify-content: right;
   align-items: center;
+  text-decoration: none;
 }
 
 footer {
